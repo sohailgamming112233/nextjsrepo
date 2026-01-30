@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { Button } from "./ui/moving-border";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
@@ -65,9 +64,9 @@ function FeaturedCourses() {
 
         <div className="mt-14 flex justify-center">
           <Link href="/courses">
-            <Button className="">
+            <button className="px-6 py-3 bg-teal-500 text-black font-semibold rounded-lg hover:bg-teal-600 transition-colors duration-300">
               View all courses
-            </Button>
+            </button>
           </Link>
         </div>
       </div>
